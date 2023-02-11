@@ -1,0 +1,22 @@
+.users {
+  height: 100vh;
+  overflow: auto;
+  position: relative;
+
+  &__cards-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    z-index: 1;
+  }
+
+  .error {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    margin: 25px 0;
+  }
+}
